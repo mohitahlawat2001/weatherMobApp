@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Mob Weather App</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+
+		<input type="text" name="" value="">
+		<button type="button" name="button">Search</button>
+		<!-- <h1>Location</h1>
+		<h2>Weather Description</h2>
+		<h3>temp</h3> -->
+
+		<!-- temperature, kind of weather (cloudy, rain etc), wind direction and speed, humidity -->
+		<h1>
+			<span id="temp">temp</span>
+			<img id="img" src="img/pokemon.jpeg" alt="">
+		</h1>
+		<h2 id="city">Location</h2>
+		<h2 id="Current">Current weather</h2>
+		<h3 id="weatherDescription">Weather Description</h3>
+		
+		<!-- min and max temp -->
+		<h2>
+			<h4>
+				<!-- leave space of one tab between min and max -->
+				Minimum :<span id="tempMin">temp</span>
+
+				
+
+				Maximum :<span id="tempMax">temp</span>
+			</h4>
+		</h2>
+
+		<h4>
+			wind :<span id="wind">wind</span> 
+		</h4>
+		<h4>
+			Humidity :<span id="humidity">humidity</span>
+		</h4>
+		<h4>
+			Pressure :<span id="pressure">pressure</span>
+		</h4>
+		<!-- <h4 id="clouds">clouds</h4> -->
+		<h4 id="sunrise">sunrise</h4>
+		<h4 id="sunset">sunset</h4>
+
+
+		<h1>Next five days forcast</h1>
+
+		<ul class="gallery">
+			<li id="line1" >
+				<h2 id="date1">Day</h2>
+				<h3 id="day1">Weather Description</h3>
+				<h4 id="temp1">temp</h4>
+				<img id="img1" src="img/pokemon.jpeg" alt="">
+			</li>
+			<li id="line2">
+				<h2 id="date2">Day</h2>
+				<h3 id="day2">Weather Description</h3>
+				<h4 id="temp2">temp</h4>
+				<img id="img2" src="img/pokemon.jpeg" alt="">
+			</li>
+			<li id="line3">
+				<h2 id="date3">Day</h2>
+				<h3 id="day3">Weather Description</h3>
+				<h4 id="temp3">temp</h4>
+				<img id="img3" src="img/pokemon.jpeg" alt="">
+			</li>
+			<li id="line4">
+				<h2 id="date4">Day</h2>
+				<h3 id="day4">Weather Description</h3>
+				<h4 id="temp4">temp</h4>
+				<img id="img4" src="img/pokemon.jpeg" alt="">
+			</li>
+			<li id="line5">
+				<h2 id="date5">Day</h2>
+				<h3 id="day5">Weather Description</h3>
+				<h4 id="temp5">temp</h4>
+				<img id="img5" src="img/pokemon.jpeg" alt="">
+			</li>
+		</ul>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
